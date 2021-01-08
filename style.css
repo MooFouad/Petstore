@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    line-height: 1.6;
+    margin: 0;
+}
+* img{
+    border-radius: 20px;
+}
+* h1{
+    color: rgb(212, 107, 107);
+}
+
+/* header */
+.container{
+    height: 70px;
+}
+.container a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    color: brown;
+}
+.container a:hover{
+    color:rgb(73, 41, 27);
+}
+.container .logo{
+    width: 60%;
+    float: left;
+    padding-left: 100px;
+}
+.container .navbar{
+    width: 40%;
+    float: right;
+    margin-top: 8px;
+}
+.background{
+    margin: auto;
+    text-align: center;
+    padding-top: 300px;
+}
+
+/* header */
+
+/*animal_container*/
+
+.animal_container{
+margin-top: 10px;
+padding: 40px 100px 40px 100px;
+margin-bottom: 25px;
+}
+.animal_container h1{
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(155, 82, 53);
+}
+.box{
+width: 45%;
+border: 3px solid brown;
+text-align: center;
+padding: 8px;
+}
+.dog{
+    float: left;
+}
+.cat{
+    float: right;
+}
+.fish{
+    float: left;
+    margin-top: 15px;
+}
+.bird{
+    float: right;
+    margin-top: 15px;
+}
+button{
+    padding: 5px;
+    color: brown;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(238, 169, 113);;
+}
+
+/* animal_container */
+/*Dog Page*/
+.dog_page_container div{
+    display: inline-block;
+}
+.dog_page_container span{
+    color: #555;
+}
+.dog_product{
+    margin: 40px;
+    width: 18%;
+    text-align: center;
+}
+
+/*Dog Page*/
+
+/*cat Page*/
+.cat_page_container div{
+    display: inline-block;
+}
+.cat_page_container span{
+    color: #555;
+}
+.cat_product{
+    margin: 40px;
+    width: 18%;
+    text-align: center;
+}
+
+/*cat Page*/
+
+/*fish Page*/
+.fish_page_container div{
+    display: inline-block;
+}
+.fish_page_container span{
+    color: #555;
+}
+.fish_product{
+    margin: 40px;
+    width: 18%;
+    text-align: center;
+}
+
+/*fish Page*/
+
+/*bird Page*/
+.bird_page_container div{
+    display: inline-block;
+}
+.bird_page_container span{
+    color: #555;
+}
+.bird_product{
+    margin: 40px;
+    width: 18%;
+    text-align: center;
+}
+
+/*bird Page*/
+
+/*contact*/
+
+.clearfix{clear: both}
+.contact{
+background-color: #252F31;
+overflow: hidden;
+margin-top: 30px;
+}
+
+.contact h2{color: #FFF; margin:40px 0px 30px 0px;}
+
+.contact P{color: #6A6E71; margin-bottom: 25px; line-height: 1.6; color: #666;}
+
+.contact .info address {color: #999;}
+
+.contact .info span{color: #FFF;}
+
+.contact .info{
+width: 45%
+;margin-right: 5%;
+float: left;
+padding-left: 40px;
+}
+.contact .form{width: 50%;float: left;}
+
+.contact .form label:first-of-type{
+    display: block;
+    margin-bottom: 10px;
+    color: #888;
+    margin-top: 70px;
+}
+.contact .form label{display: block;margin-bottom: 10px;color: #888;}
+
+.contact .form input[type="text"],
+.contact .form input[type="email"]{
+    background-color: #444;
+    border: 1px solid #999;
+    padding: 5px;
+    border-radius: 7px;
+    width: 65%;
+    color: white;
+    margin-bottom: 20px;
+}
+.contact .form textarea{
+     background-color: #444;
+    border: 1px solid #999;
+    padding: 5px;
+    border-radius: 7px;
+    width: 65%;
+    color: white;
+    margin-bottom: 20px;
+    height: 200px
+}
+.contact .form input[type="submit"]{
+    display: block;
+    border: 1px solid #999;
+    padding: 5px;
+    border-radius: 7px;
+    width: 20%;
+    background-color: #222;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+/*start footer */
+.footer{
+    background-color: #191E22;
+    padding: 20px;
+    color: #6A6E71;
+    text-align: center;
+    height: 80px;
+}
+
+
+
+
+
+
